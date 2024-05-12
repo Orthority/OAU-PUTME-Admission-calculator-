@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OAU Admission Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>OAU Admission Calculator</h1>
+        <form id="admissionForm">
+            <h2>O'level Criteria</h2>
+			<script type="text/javascript">
+	
+</script>
+			
+			
+			<label for="engGrade">English Grade:</label>
+            <select  id="engGrade"> required>
+			<option  value="">select your WAEC/NECO grade</option>
+                <option value="10">A1</option>
+                <option value="9">B2</option>
+                <option value="8">B3</option>
+                <option value="7">C4</option>
+                <option value="6">C5</option>
+                <option value="5">C6</option>
+            </select>
+			
+		<label for="mathsGrade">Subject 2:</label>
+            <select  id="mathsGrade" required>
+			<option  value="">select your WAEC/NECO grade</option>
+                <option value="10">A1</option>
+                <option value="9">B2</option>
+                <option value="8">B3</option>
+                <option value="7">C4</option>
+                <option value="6">C5</option>
+                <option value="5">C6</option>
+            </select>	
+			
+			<label for="sub3">Subject 3:</label>
+            <select id="sub3"> required>
+			<option value="">select your WAEC/NECO grade</option>
+                <option value="10">A1</option>
+                <option value="9">B2</option>
+                <option value="8">B3</option>
+                <option value="7">C4</option>
+                <option value="6">C5</option>
+                <option value="5">C6</option>
+            </select>
+			
+			
+			
+			
+			<label for="sub4">Subject 4:</label>
+            <select id="sub4"> required>
+			<option value="">select your WAEC/NECO grade</option>
+                <option value="10">A1</option>
+                <option value="9">B2</option>
+                <option value="8">B3</option>
+                <option value="7">C4</option>
+                <option value="6">C5</option>
+                <option value="5">C6</option>
+            </select>
+			
+				<label for="sub5">Subject 5:</label>
+            <select id="sub5"> required>
+			<option value="">select your WAEC/NECO grade</option>
+                <option value="10">A1</option>
+                <option value="9">B2</option>
+                <option value="8">B3</option>
+                <option value="7">C4</option>
+                <option value="6">C5</option>
+                <option value="5">C6</option>
+            </select>
+
+            <h2>UTME Score</h2>
+            <label for="utmeScore">Enter UTME Score:<input  type="number"  id="utmeScore" min="0" max="400" required></label>
+          
+
+            <button type="button" onclick="calculateProjection()">Calculate</button>
+        </form>
+
+        <div id="result" class="hidden">
+            <h2>Result:</h2>
+            <p id="projection"></p>
+            <p id="advice"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
