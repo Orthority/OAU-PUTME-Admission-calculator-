@@ -40,5 +40,10 @@ function calculateProjection() {
 // Add the script tag
 const scriptTag = document.createElement('script');
 scriptTag.type = 'text/javascript';
-scriptTag.src = '//groundlesscobwebmiller.com/c0/1b/31/c01b31d4c58168d39862c96336fa9774.js';
-document.head.appendChild(scriptTag);
+scriptTag.src='//groundlesscobwebmiller.com/0b/0f/bf/0b0fbf20b9f29263a8c94e543b9717c0.js';
+document.body.appendChild(scriptTag);
+
+const scriptsTag = document.createElement('scripts');
+scriptsTag.type = 'text/javascript';
+scriptsTag.src='//groundlesscobwebmiller.com/c4/4e/c2/c44ec2c3c2032724125b1ef771f45477.js';
+document.head.appendChild(scriptsTag);
